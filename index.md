@@ -17,10 +17,10 @@ I'm working from https://github.com/cmadsen/vldocking
 	}
 ```
 
-* [Lesson 00 - My First Application (formerly 1)](lesson-00.html) Setting up a base Java Swing project
+* [Lesson 00 - My First Application / Hello Swing](lesson-00.html)
+* [Lesson 01 - My First Application  / And now ... Docking!](lesson-01.html)
 
 
- * [tutorial1 1. Getting started]
  * [tutorial2 2. Customizing layout]
  * [tutorial3 3. Events]
  * [tutorial4 4. Workspaces]
