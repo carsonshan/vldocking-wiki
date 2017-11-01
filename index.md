@@ -4,7 +4,7 @@ This is the old (2015?) vlDocking WiKi/Tutorial converted to Makrdonw (Jeylk?) b
 ... or will be ... I'm not super interested (sorry) and may [get distracted by other things ...](https://youtu.be/DuPfDl_0Pro)
 
 
-* 
+* [Lesson 00 - My First Application (formerly 1)](lesson-00.html) Setting up a base Java Swing project
 
 
  * [tutorial1 1. Getting started]
