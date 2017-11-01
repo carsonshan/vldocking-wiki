@@ -26,7 +26,7 @@ We start with a JPanel to be able to add other components inside later (a toolba
 ```
     class MyTextEditor extends JPanel {
         JTextArea textArea = new JTextArea("A Text Area");
-        public MyTextEditor() {
+        MyTextEditor() {
             setLayout(new BorderLayout());
             JScrollPane jsp = new JScrollPane(textArea);
             jsp.setPreferredSize(new Dimension(300, 400));
@@ -42,7 +42,7 @@ This component is a simple JTree, and like for TextEditor, we will start with a 
 ```
     class MyTree extends JPanel {
         JTree tree = new JTree();
-        public MyTree() {
+        MyTree() {
             setLayout(new BorderLayout());
             JScrollPane jsp = new JScrollPane(tree);
             jsp.setPreferredSize(new Dimension(200, 200));
@@ -57,10 +57,10 @@ This component simulates a palette window, or any command component used to modi
 
 ```
     class MyGridOfButtons extends JPanel {
-        public MyGridOfButtons() {
+        MyGridOfButtons() {
             setLayout(new FlowLayout(FlowLayout.TRAILING, 3, 3));
-            for (int i = 0; i &lt; 3; i++) {
-                for (int j = 0; j &lt; 3; j++) {
+            for (int i = 0; i < 3; i++) {
+                for (int j = 0; j < 3; j++) {
                     add(new JButton("btn" + (i * 3 + j)));
                 }
             }
@@ -77,7 +77,7 @@ This component is a JPanel containing a JScrollPane, containing a JTable.
 ```
    class MyJTable extends JPanel {
       JTable table = new JTable();
-      public MyJTable() {
+      MyJTable() {
          setLayout(new BorderLayout());
          table.setModel(new DefaultTableModel(5, 5));
          JScrollPane jsp = new JScrollPane(table);
@@ -93,32 +93,34 @@ This component is a JPanel containing a JScrollPane, containing a JTable.
 Our frame object will be a standard JFrame subclass, with a main() method for testing purposes.
 
 ```
-public class MyFirstFrame extends JFrame {
+public class Lesson00Frame extends JFrame {
 
-   MyTextEditor editorPanel = new MyTextEditor();
-   MyTree treePanel = new MyTree();
-   MyGridOfButtons buttonGrid = new MyGridOfButtons();
-   MyJTable tablePanel = new MyJTable();
+    MyTextEditor editorPanel = new MyTextEditor();
+    MyTree treePanel = new MyTree();
+    MyGridOfButtons buttonGrid = new MyGridOfButtons();
+    MyJTable tablePanel = new MyJTable();
 
-   public MyFirstFrame(){
-      setDefaultCloseOperation(DISPOSE_ON_CLOSE);
-      getContentPane().add(editorPanel, BorderLayout.CENTER);
-      getContentPane().add(treePanel, BorderLayout.WEST);
-      getContentPane().add(buttonGrid, BorderLayout.NORTH);
-      getContentPane().add(tablePanel, BorderLayout.EAST);
-   }
+    Lesson00Frame(){
+        setDefaultCloseOperation(DISPOSE_ON_CLOSE);
+        getContentPane().add(editorPanel, BorderLayout.CENTER);
+        getContentPane().add(treePanel, BorderLayout.WEST);
+        getContentPane().add(buttonGrid, BorderLayout.NORTH);
+        getContentPane().add(tablePanel, BorderLayout.EAST);
+    }
 
-   public static void main(String[] args){
-      MyFirstFrame frame = new MyFirstFrame();
-      frame.setSize(800,600);
-      frame.validate();
-      SwingUtilities.invokeLater(new Runnable(){
-          // in the event dispatch thread
-          public void run(){
-	      frame.setVisible(true);
-	  }
-      };  
-   }
+    static void main(String[] args){
+        Lesson00Frame frame = new Lesson00Frame();
+        frame.setSize(800,600);
+        frame.validate();
+        SwingUtilities.invokeLater(
+            new Runnable(){
+                // in the event dispatch thread
+                public void run(){
+                    frame.setVisible(true);
+                }
+            }
+        );
+    }
 }
 ```
 

@@ -3,6 +3,19 @@ This is the old (2015?) vlDocking WiKi/Tutorial converted to Makrdonw (Jeylk?) b
 
 ... or will be ... I'm not super interested (sorry) and may [get distracted by other things ...](https://youtu.be/DuPfDl_0Pro)
 
+I'm working from https://github.com/cmadsen/vldocking
+
+```
+	repositories {
+		mavenCentral()
+	}
+
+	apply plugin: 'java'
+
+	dependencies {
+		compile 'dk.navicon:vldocking:3.0.4'
+	}
+```
 
 * [Lesson 00 - My First Application (formerly 1)](lesson-00.html) Setting up a base Java Swing project
 
