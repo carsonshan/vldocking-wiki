@@ -23,7 +23,9 @@ I'm working from [https://github.com/cmadsen/vldocking](https://github.com/cmads
 
  * [tutorial2 2. Customizing layout]
  * [tutorial3 3. Events]
- * [tutorial4 4. Workspaces]
+
+* [Lesson 04 - VLDocking Workspaces](lesson-04.html)
+
  * [tutorial5 5. Extending VLDocking]
  * [tutorial6 6. Tips & Tricks]
  * [tutorial7 7. Heavyweight components]
