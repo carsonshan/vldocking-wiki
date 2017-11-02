@@ -132,4 +132,4 @@ This is the kind of frame layout a standard Swing application would have (althou
 
 ----
 
-[Next ; My First Application  / And now ... Docking!](lesson-01.html)
+[Next ; My First Application  / And now ... Docking!](lesson-01.md)

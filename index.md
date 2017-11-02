@@ -17,14 +17,14 @@ I'm working from [https://github.com/cmadsen/vldocking](https://github.com/cmads
 	}
 ```
 
-* [Lesson 00 - My First Application / Hello Swing](lesson-00.html)
-* [Lesson 01 - My First Application  / And now ... Docking!](lesson-01.html)
+* [Lesson 00 - My First Application / Hello Swing](lesson-00.md)
+* [Lesson 01 - My First Application  / And now ... Docking!](lesson-01.md)
 
  * [tutorial2 2. Customizing layout]
  * [tutorial3 3. Events]
  * [tutorial4 4. Workspaces]
  * [tutorial5 5. Extending VLDocking]
- * [tutorial6 6. Tips & Tricks]
+* [Lesson 06 - Tips & Tricks](lesson-06.md)
  * [tutorial7 7. Heavyweight components]
 * [Lesson 08 - Customizing the User Interface](lesson-08.md)
  * [tutorial9 9. Toolbars]

@@ -217,7 +217,7 @@ There are basically two types of DockableContainers:
    
 ----
 
-[Next ; Customizing the desktop layout, display and docking behaviour](lesson-02.html)
+[Next ; Customizing the desktop layout, display and docking behaviour](lesson-02.md)
 
 [^nonGUI]:
 	We could have created non GUI dockables to isolate them from the application code, but this is our first proper lesson...
