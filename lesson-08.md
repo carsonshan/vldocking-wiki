@@ -1,5 +1,5 @@
 
-# Lesson 8: Customizing the User Interface
+# Lesson 8 : Customizing the User Interface
 
 This is the 8th part of the VLDocking Framework for Java Swing applications.
 This lesson describes how to change the Look And Feel of VLDocking. 
