@@ -3,7 +3,7 @@ This is the old (2015?) vlDocking WiKi/Tutorial converted to Makrdonw (Jeylk?) b
 
 ... or will be ... I'm not super interested (sorry) and may [get distracted by other things ...](https://youtu.be/DuPfDl_0Pro)
 
-I'm working from https://github.com/cmadsen/vldocking
+I'm working from [https://github.com/cmadsen/vldocking](https://github.com/cmadsen/vldocking)
 
 ```
 	repositories {

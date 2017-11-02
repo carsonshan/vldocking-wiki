@@ -106,7 +106,7 @@ Here is a screenshot of the results:
 
 Easy, isn't it?
 
-Let's discuss what's happening.
+Let's discuss what our options for twaeking it are.
 
 ## Docking layout methods
 
@@ -150,7 +150,7 @@ The RelativeDockingPosition defines a restore  position (x,y, width, height: val
 
 You can use constants like  `RelativeDockingPosition.TOP_LEFT` to express this position or construct a new position (look at the RelativeDockingPosition javadoc API for further explanations).
 
-### The `registerDockable` method ===
+### The `registerDockable` method
 
 `registerDockable(Dockable d)` is used to declare a dockable without displaying it.
 You will see later on that there is a `DockingSelectorDialog` helper window that can be used to select the dockables to show and those to set unvisible, and which requires registered Dockables (registration is implicit for visible dockables).
@@ -198,7 +198,7 @@ And here are some images showing the effects of those methods :
 			```
 		</td>
 	</tr>
-	<tr><td markdown="span">[!Split and Auto-Hide](frame5.jpg)</td></tr>
+	<tr><td markdown="span">![Split and Auto-Hide](frame5.jpg)</td></tr>
 </table>
 
 ## The Dockable Containers
@@ -219,5 +219,5 @@ There are basically two types of DockableContainers:
 
 [Next ; Customizing the desktop layout, display and docking behaviour](lesson-02.html)
 
-[^nonGUI^]:
+[^nonGUI]:
 	We could have created non GUI dockables to isolate them from the application code, but this is our first proper lesson...
