@@ -19,7 +19,7 @@ I'm working from [https://github.com/cmadsen/vldocking](https://github.com/cmads
 
 * [Lesson 00 - My First Application / Hello Swing](lesson-00.html)
 * [Lesson 01 - My First Application  / And now ... Docking!](lesson-01.html)
-
+* [Lesson 02 - Customizing the layout, display and docking behaviour](lesson-02.html)
 
  * [tutorial2 2. Customizing layout]
  * [tutorial3 3. Events]
